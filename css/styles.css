@@ -1,0 +1,130 @@
+.contenedor-padre{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100px 100px 100px 100px;
+    justify-content: space-between;
+
+}
+.contenedor-hijo{
+    background-color: bisque;
+    width: auto;
+    border-style: solid;
+    border-color: blue;
+    
+}
+.contenedor-hijo1{
+    background-color: greenyellow   ;
+    width: auto;
+    border-style: solid;
+    border-color: blue;
+    grid-column: 1/6;
+    
+}
+.contenedor-hijo2{
+    background-color: greenyellow   ;
+    width: auto;
+    border-style: solid;
+    border-color: blue;
+    grid-column: 1/3;
+}
+.contenedor-hijo3{
+    background-color: greenyellow   ;
+    width: auto;
+    border-style: solid;
+    border-color: blue;
+}
+.contenedor-hijo4{
+    background-color: greenyellow   ;
+    width: auto;
+    border-style: solid;
+    border-color: blue;
+
+}
+.contenedor-hijo5{
+    background-color: greenyellow   ;
+    width: auto;
+    border-style: solid;
+    border-color: blue;
+    grid-column: 1/2;
+}
+.contenedor-hijo6{
+    background-color: greenyellow   ;
+    width: auto;
+    border-style: solid;
+    border-color: blue;
+    grid-column: 2/6;
+}
+.contenedor-hijo7{
+    background-color: greenyellow   ;
+    width: auto;
+    border-style: solid;
+    border-color: blue;
+    grid-column: 3/6;
+    
+}
+.contenedor-hijo8{
+    background-color: greenyellow   ;
+    width: auto;
+    border-style: solid;
+    border-color: blue;
+    grid-column: 1/3;
+    grid-row: 4/6;
+    
+}
+.contenedor-hijo9{
+    background-color: greenyellow   ;
+    width: auto;
+    border-style: solid;
+    border-color: blue;
+    grid-column: 3/6;
+    
+}
+
+*{
+    margin: 5px;
+}
+.cont2{
+    display: flex;
+    flex-direction: row;
+
+    background-color: blue;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.caja{
+    background-color: gold;
+    margin: 5px;
+    height: 670px;
+    width: 470px;
+}
+.caja-1{
+    display: flex;
+    flex-direction: row;
+    height: 33%;
+}
+.caja-2{
+    display: flex;
+    flex-direction: column;
+    height: 33% 
+}
+.caja-1-1{
+    background-color: greenyellow;
+    height: 200px;
+    width: 100%;
+}
+.caja-2-1{
+    background-color: greenyellow;
+    height: 60px;
+}
+.caja-3{
+    height: 120px;
+    background-color: greenyellow;
+}
+
+.formdiv{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 35% 30% auto;
+    justify-content: space-between;
+}
